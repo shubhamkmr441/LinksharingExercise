@@ -5,7 +5,6 @@ class Topic {
     String name
     Date datecreated
     Date lastupdated
-
     enum  Visibility {
         Public, Private
     }

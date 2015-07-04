@@ -4,7 +4,8 @@ class ReadingItem {
 
     Resource resource
     User user
-    boolean  isread
+    boolean  isread = false
+
 
 
     static constraints = {

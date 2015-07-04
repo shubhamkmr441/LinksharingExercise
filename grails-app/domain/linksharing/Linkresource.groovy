@@ -5,6 +5,6 @@ class Linkresource {
 
     static constraints = {
     }
-    def Resource resource1
-    static belongsTo = [Resource]
+    Resource resource1
+
 }

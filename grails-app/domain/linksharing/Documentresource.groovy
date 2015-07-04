@@ -3,9 +3,9 @@ package linksharing
 class Documentresource {
 
     String filepath
+    Resource resource1
 
     static constraints = {
     }
-    def Resource resource1
-    static belongsTo = [Resource]
+
 }

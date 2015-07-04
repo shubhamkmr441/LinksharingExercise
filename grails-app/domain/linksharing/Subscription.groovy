@@ -5,12 +5,9 @@ class Subscription {
     User user
     Date datecreated
 
-    enum Seriousness {
-        Serious, very_Serious, Casual
-    }
 
     static constraints = {
-
+        user( unique: 'topic',  nullable: false)
 
     }
 }
