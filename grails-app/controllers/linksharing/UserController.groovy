@@ -1,7 +1,15 @@
 package linksharing
 
 class UserController {
+    def index(){}
 
-    static scaffold = true
+
+    def register()
+    {
+        User user = new User()
+        bindData(user,params)
+        render "Successfull"
+
+    }
 
 }
