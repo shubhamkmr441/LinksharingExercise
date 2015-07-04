@@ -1,7 +1,7 @@
 package linksharing
 
 class UserController {
-    def index(){}
+    def scaffold = true
 
 
     def register()
